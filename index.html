@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color: skyblue;
+        }
+        h1 {
+            background-color: goldenrod;
+            color: blue;
+            text-align: center;
+        }
+        h2 {
+            background-color: yellowgreen;
+            color: white;
+            text-align: center;
+        }
+
+        form {
+            background-color: green;
+            color: white;
+        }
+        
+    </style>
+    <h1>Assalomu alaykum. Saytimizga hush kelibsiz</h1>
+    <img src="rasm.jpg" width="100%" height="600" alt="">
+    <h2>Saytimizdan to'liq foydalanish uchun iltimos ro'yhatdan o'ting</h2>
+
+    <fieldset>
+        <legend style="color: red;">FOYDALANUVCHINING MA'LUMOTLARI</legend>
+        <form>
+            <label for="ism">Ismingiz</label>
+            <input type="text" placeholder="Ismingizni kiriting" id="ism">
+            <br>
+            <br>
+            <label for="familiya">Familiyangiz</label>
+            <input type="text" placeholder="Familiyangizni kiriting" id="familiya">
+            <br>
+            <br>
+            <label for="phone-number">Telefon raqamingiz</label>
+            <input type="number" placeholder="Telefon raqamingizni kiriting" id="phone-number">
+            <br>
+            <br>
+            <label for="email">Emailingiz</label>
+            <input type="email" placeholder="Emailingizni kiriting" id="email">
+            <br>
+            <br>
+            <label for="login">Loginingiz</label>
+            <input type="text" placeholder="Loginingizni kiriting" id="login">
+            <br>
+            <br>
+            <label for="pass">Parolingiz</label>
+            <input type="password" placeholder="Parolingizni kiriting" id="pass">
+            <br>
+            <br>
+            <label>Qaysi rangni yoqtirasiz?</label>
+            <br>
+            <br>
+            <label style="color: red;" for="red">QIZIL</label>
+            <input type="checkbox" id="red">
+
+            <label style="color: black;" for="black">QORA</label>
+            <input type="checkbox" id="black">
+
+            <label style="color: white;" for="white">OQ</label>
+            <input type="checkbox" id="white">
+
+            <label style="color: skyblue;" for="skyblue">HAVORANG</label>
+            <input type="checkbox" id="skyblue">
+            <br>
+            <br>
+
+            <label>Jinsingiz</label>
+            <br>
+            <br>
+            <label for="male">Erkak</label>
+            <input type="radio" id="male" name="gender">
+
+            <label for="female">Ayol</label>
+            <input type="radio" id="female" name="gender">
+            <br>
+            <br>
+            <label>Qaysi viloyatdansiz?</label>
+            <select>
+                <option value="and">Andijon</option>
+                <option value="far">Farg'ona</option>
+                <option value="nam">Namangan</option>
+                <option value="tash">Toshkent</option>
+            </select>
+            <br>
+            <br>
+            <label for="comment">O'zingiz haqida qisqacha</label>
+            <br>
+            <br>
+            <textarea id="comment" cols="30" rows="10"></textarea>
+        </form>
+    </fieldset>
+</body>
+</html>
